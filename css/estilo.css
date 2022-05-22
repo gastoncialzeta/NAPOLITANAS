@@ -5,19 +5,15 @@
   line-height: 55px;
   bottom: 30px;
   right: 30px;
-  background: #0df053;
   color: #fff;
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
-  z-index: 100;
+  z-index: 999;
+  background: green;
 }
-btn-wsp:hover{
-  text-decoration: none;
-  color: #0df053;
-  background: #fff;
-}
+btn-wsp:hover{background: green;}
 
 
 
@@ -26,35 +22,30 @@ btn-wsp:hover{
 
 header {text-align: center;
   text-decoration: underline;
-font-family:cursive;
+font-family: monospace;
 text-shadow: rgb(255, 255, 255) 5px 5px 10px;
 background-color: rgba(255, 255, 255, 0.5);
 margin-bottom: 0%;
 border-radius: 10px;
 }
 
-body {background-position: center;
+body {background-image: url(../imagenes/recetas.png);
+  background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-background-attachment:;
-  background-image: url(../imagenes/recetas.png);
-text-shadow: rgb(255, 255, 255) 5px 5px 10px;
-background-color: rgba(255, 255, 255, 0.5);
-margin-bottom: 0%;
-font-family:cursive;
-border-radius: 10px;}
+background-attachment:;}
 
 nav {text-align: center;
   text-shadow: rgb(255, 255, 255) 5px 5px 10px;
 background-color: rgba(255, 255, 255, 0.5);
 margin-bottom: 0%;
 text-decoration: underline;
-font-family:cursive;
+font-family:monospace;
 border-radius: 10px; }
 
 section {text-align: center;
   border-radius: 10px;
-  font-family: cursive;
+  font-family: monospace;
   text-shadow: rgb(255, 255, 255) 5px 5px 10px;
   background-color: rgba(255, 255, 255, 0.5);
 margin-bottom: 0%;
@@ -62,15 +53,50 @@ background-position: center
 }
 
 aside {border-radius: 10px;
-  font-family: cursive;
+  font-family: monospace;
  text-shadow: rgb(255, 255, 255) 5px 5px 10px;
  background-color: rgba(255, 255, 255, 0.5);
  margin-bottom: 0%;
  background-position: center
 }
 
-div {width: 500px;
-  height: auto;
-margin: inherit;
-display: block;
-border-radius: 50%;}
+
+footer{justify-content: space-around;
+align-items: center;
+flex-direction: row;
+}
+
+.redes-sociales {display: flex;
+  justify-content: space-around;
+flex-direction: row;
+align-items: center;
+}
+
+.redes-sociales img{z-index: 999;
+  width: 40px;
+height: 40px;}
+
+
+.instagram {
+  bottom: 15vh;
+  right: 4vw;
+  background-color: white;
+  border-radius: 50%;
+  width: 3%;
+  height: 3%;}
+
+.twitter{bottom: 15vh;
+right: 4vw;
+background-color: white;
+border-radius: 50%;
+width: 3%;
+height: 3%;}
+
+
+.facebook{bottom: 15vh;
+right: 4vw;
+background-color: white;
+border-radius: 50%;
+width: 3%;
+height: 3%;
+}
