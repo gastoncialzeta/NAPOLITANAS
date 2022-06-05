@@ -13,7 +13,8 @@
   z-index: 999;
   background: green;
 }
-btn-wsp:hover{background: green;}
+btn-wsp:{background: green;
+}
 
 
 
@@ -100,3 +101,31 @@ border-radius: 50%;
 width: 3%;
 height: 3%;
 }
+
+.contacto:hover{width: 50%;
+  height: 50%;
+  background-color: black;
+color: white;}
+
+.napolitana:hover {width: 50%;
+  height: 50%;
+  background-color: black;
+color: white;}
+
+.dulces:hover{color: purple;
+background-color: orange;}
+
+.napo-litana:hover{color: salmon;
+background-color: pink;}
+
+.nombres{background-color: black;
+color: white;
+font-family: sans-serif;}
+
+.gmail{background-color: black;
+color: white;
+font-family: sans-serif;}
+
+.mensajito{background-color: black;
+color: white;
+font-family: sans-serif;}
